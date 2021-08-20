@@ -1,0 +1,143 @@
+<!-- !DOCTYPE - wybieranie standardu -->
+<!DOCTYPE HTML>
+
+<!-- html - w tym będzie cały nasz kod -->
+<!-- lang - wybór języka -->
+<html lang = "pl">
+
+
+<!-- head - tego nie ma na stronie, ale są wymagane do działania strony. Jest tu np. kodowanie znaków, tytuł i opis w wyszukiwarce, skrypty JS, czcionki itd -->
+<head>
+	<!-- Meta utf-8 - wybieramy zestaw znaków -->
+	<meta charset = "utf-8"/>
+	
+	<!-- Określamy tytuł strony -->
+	<title>Kocioł</title>
+	
+	<!-- Opis stronki -->
+	<meta name = "description" content = "Koteł - pan wszystkich człowieków/>
+	
+	<!-- Dodajemy keywordsy do strony -->
+	<meta name = "keywords" content = "kot, koteł, kotełek, kotełos"/>
+	
+	<!-- Żeby explorer nie rozsypał strony, każemy jej uruchomić w najnowszej wersji explorerka -->
+	<meta http-equiv = X-UA-Compatible" content = "IE = edge,chrome = 1"/>
+	
+	<!-- Autor stronki -->
+	<meta name = "author" content = "Sebastian"/>
+	
+	
+	<!-- Znak # oznacza, że będzie to czyjeś ID -->
+	<!-- Importujemy plik kotel.css do html'a -->
+	
+	<link rel="stylesheet" href="kotel.css">
+	
+</head>
+
+<!-- body - Wszystko co widać, zawartość, np tekst, obrazy, hiperłącza, pola, przyciski itd -->
+<body>
+
+	<!-- Dodanie głównej ramki strony w której będzie wszystko - obudowa -->
+	<div id = "obudowa">
+		
+		<!-- W obudowie dodajemy diva z nagłówkiem -->
+		<div id = "naglowek_1">
+		
+			<!-- Nagłówek 1-->			
+			<img src ="img/naglowek_1.jpg" width="200" height="70"></a>
+		</div>
+		
+		<div id = "naglowek_2">
+			<!-- Nagłówek 2-->			
+			<h2>Więcej o hodowli</h2> 
+		</div>
+		
+		<div id = "naglowek_3">
+			<!-- Nagłówek 3-->			
+			<h2>Galeria</h2> 
+		</div>
+		
+		<div id = "naglowek_4">
+			<!-- Nagłówek 4-->			
+			<h2>Sklep</h2> 
+		</div>
+		
+		<div id = "naglowek_5">
+			<!-- Nagłówek 5-->			
+			<h2>Wydarzenia</h2> 
+		</div>
+		
+		<div id = "kot">
+			<img src ="img/kot.jpg" width="1000" height="626"></a>
+		</div>
+		
+		<div id = "kim_jestesmy">
+			<!--  Nagłówek czcionką h1, tekst przywołujemy z czcionki "tekst_ogólny" zdefiniowaną wcześniej-->	
+			<h1>Kim jesteśmy?</h1> 
+			<p = id = "tekst_ogolny">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl amet, dolor adipiscing mattis enim. Tincidunt orci, in morbi eu eget odio vel. Potenti tincidunt tristique consectetur imperdiet ornare sed interdum quam. Id nee augue rhoncus cursus. Non arcu mi ultrices nunc ultrices suspendisse sed. Hae auctor convallis urna volutpat risus. Sit malesuada amet, aliquam mi cursus hendrerit morbi curabitur. Vel laoreet tincidunt egestas tellus, justo, quisque egestas.
+			Suspendisse ipsum semper nisi, rhoncus. Et amet metus duis turpis. A massa felis tincidunt donec eleifend enim placerat.
+			</p>
+		</div>
+		
+		<div id = "odnosniki">
+	
+			<!-- Enter (Break Line)-->
+			<br></br>
+			
+			<!-- Wrzucenie obrazku YT + hiperlink oraz otworzenie w nowej stronie komendą "Target = _blank" 
+			| dodanie podpowiedzi po najechaniu na obrazek "title="Przejdź do YouTube" -->
+			<a href = "https://www.youtube.com" target = "_blank" title = "Przejdź do YouTube"> 
+			<img src ="img/yt.jpg" style = "margin:25px" width="130" height="130"></a>
+			
+			<!-- Wrzucenie obrazku FB + hiperlink oraz otworzenie w nowej stronie komendą "Target = _blank"
+			| dodanie podpowiedzi po najechaniu na obrazek "title="Przejdź do Facebooka"-->
+			<a href = "https://www.facebook.com/" target = "_blank" title = "Przejdź do Facebooka">
+			<img src ="img/fb.jpg" style = "margin:25px" width="130" height="130"></a>
+			
+			<!-- Wrzucenie obrazku Insta + hiperlink oraz otworzenie w nowej stronie komendą "Target = _blank"
+			| dodanie podpowiedzi po najechaniu na obrazek "title="Przejdź do Instagrama""-->
+			<a href = "https://www.instagram.com/" target = "_blank" title = "Przejdź do Instagrama">
+			<img src ="img/insta.jpg" style = "margin:25px" width="130" height="130"></a>
+			<br></br>
+		</div>
+		
+		<div id = "nasza_para">
+			<h1>Nasza para</h1> 
+			
+			<!-- hspace oraz vspace dodaje nam odstępy o x ilość pixeli -->
+			<img src ="img/emil.jpg" width="350" height="372" alt = ""style = "float:left;" hspace="15" vspace="15">
+			<h2>Emil</h2> 
+			<p = id = "tekst_ogolny">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Venenatis netus ornare ut amet tristique etiam. Est urna mattis egestas imperdiet eu venenatis dui. Ut placerat orci sed duis posuere orci at faucibus gravida. Ultrices est, mi fusee tellus sit proin. Quam felis augue id fermentum magna feugiat. Interdum dictum facilisis tincidunt elementum. Egestas amet dui pellentesque velit in massa at et faucibus. Ultrices quam porttitor augue sit integer amet faucibus id aliquam. Purus, ullamcorper tellus volutpat in a a imperdiet integer tincidunt. Facilisis adipiscing quis leo potenti tortor lectus.
+			</p></a>
+			
+			<br></br>
+					
+	
+			<img src ="img/barbara.jpg" width="350" height="372"alt = ""style = "float:right;" hspace="15" vspace="15">
+			<h2>Barbara</h2> 
+			<p = id = "tekst_ogolny">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Venenatis netus ornare ut amet tristique etiam. Est urna mattis egestas imperdiet eu venenatis dui. Ut placerat orci sed duis posuere orci at faucibus gravida. Ultrices est, mi fusee tellus sit proin. Quam felis augue id fermentum magna feugiat. Interdum dictum facilisis tincidunt elementum. Egestas amet dui pellentesque velit in massa at et faucibus. Ultrices quam porttitor augue sit integer amet faucibus id aliquam. Purus, ullamcorper tellus volutpat in a a imperdiet integer tincidunt. Facilisis adipiscing quis leo potenti tortor lectus.
+			</p></a>
+			
+			<br></br>
+			
+		</div>
+		
+		<div id = "kontakt_lewy">
+			<!-- <br></br> enterujemy linijki tekstu -->
+			<p = id = "tekst_ogolny">Kocioł Hodowla Kotów Dachowych</p> 
+			<p = id = "tekst_ogolny">Ul. Kocia 66, 33-100 Tarnów</p> 
+			<p = id = "tekst_ogolny">tel. 500 600 700</p> <br></br>
+		</div>
+		
+		<div id = "kontakt_prawy">
+			<p = id = "tekst_ogolny">Wydarzenia</p> 
+			<p = id = "tekst_ogolny">GaleriaSklep</p> <br></br>
+			<p = id = "tekst_ogolny"></p>
+			<p = id = "tekst_ogolny">Copyright Dupa Sp. z o. o. 2021</p>
+		</div>
+	</div>
+
+</body>
+</html>
+
+<!-- Treść komentarza -->

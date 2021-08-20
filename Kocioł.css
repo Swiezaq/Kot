@@ -1,0 +1,109 @@
+#tekst_ogolny
+	{
+		font-size: 25px;
+	}
+	
+#obudowa
+	{
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #f0f4f4;
+	}
+	
+#naglowek_1
+	{
+		font-family: Copperplate, Papyrus, fantasy;
+		width: 200px;
+		height: 70px;
+		float:left;
+		background-color: #f0f4f4;
+		text-align: center;
+	}	
+	
+#naglowek_2
+	{
+		width: 200px;
+		height: 70px;
+		float:left;
+		background-color: #f0f4f4;
+		text-align: center;
+	}	
+	
+#naglowek_3
+	{
+		width: 200px;
+		height: 70px;
+		float:left;
+		background-color: #f0f4f4;
+		text-align: center;
+	}	
+	
+#naglowek_4
+	{
+		width: 200px;
+		height: 70px;
+		float:left;
+		background-color: #f0f4f4;
+		text-align: center;
+	}	
+	
+#naglowek_5
+	{	
+		width: 200px;
+		height: 70px;
+		float:left;
+		background-color: #f0f4f4;
+		text-align: center;
+	}	
+	
+#kot
+	{
+		clear: both;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #f0f4f4;
+	}
+	
+#kim_jestesmy
+	{
+		background-color: #f0f4f4;
+		text-align: left;
+		padding: 20px 20px 20px 20px;
+	}
+	
+#odnosniki
+	{
+		text-align: center;
+		background-color: #f0f4f4;
+	}
+	
+#nasza_para
+	{
+		text-align: left;
+		background-color: #f0f4f4;
+		padding: 20px 20px 20px 20px;
+	}
+	
+	
+#kontakt_lewy
+	{
+		width: 470px;
+		height: 230px;
+		float:left;
+		background-color: black;
+		color: white;
+		padding: 15px;
+		text-align: left;
+	}
+	
+#kontakt_prawy
+	{
+		width: 470px;
+		height: 230px;
+		float:left;
+		background-color: black;
+		color: white;
+		padding: 15px;
+		text-align: right;
+	}
